@@ -1,7 +1,5 @@
 /* A13 */
-
 /*
-
 Identitas Kelompok A13
 
 @usernamegithub - (nama lengkap)
@@ -9,20 +7,18 @@ Identitas Kelompok A13
 @santiam04 - (nama lengkap)
 @kakatuahitam - Yuda Kurnia Nurul Fikri
 @dudu756 - (nama lengkap)
-
- */
+*/
 
 /* Animation: */
 /* Media Query: */
 
 :root {
   /* Color Pallete */
-  --primary-color: #BFAF2E;
-  --light-acc-color: #8A819A;
-  --light-shd-color: #F4F7F6;
-  --dark-acc-color: #AF3E50;
-  --dark-shd-color: #292532;
-
+  --golden: #BFAF2E;
+  --light-purple: #8A819A;
+  --light-gray: #F4F7F6;
+  --red-maroon: #AF3E50;
+  --dark-gray: #292532;
   /* Tambahan warna untuk teks, atau lainnya */
 }
 
@@ -31,10 +27,122 @@ Identitas Kelompok A13
 }
 
 body {
-  background-color: var(--primary-color);
+  background-color: var(--light-gray);
 }
 
 /* Footer @ Noor-Adibi */
-footer {
+.footer-atas-wrap {
+  margin-top: 30px;
+  height: 550px;
+  background-color: var(--dark-gray);
+}
 
+.border-kiri-fki {
+  width: 10px;
+  height: 550px;
+  margin-left: 35px;
+  background-color: var(--golden);
+  float: left;
+}
+
+.border-kanan-fki {
+  width: 10px;
+  height: 550px;
+  background-color: var(--golden);
+  float: left;
+}
+
+.footer-kiri {
+  color: white;
+  width: 200px;
+  height: 550px;
+  float:left;
+  background-color: var(--dark-gray);
+}
+
+.logo-fki {
+  padding: 35px 0 15px 0;
+  text-align: center; 
+  letter-spacing: 3px;
+  background-color: var(--red-maroon);
+  border-bottom: 5px solid var(--golden);
+}
+
+.sosmed a {
+  width: 160px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  padding-top: 13px;
+  padding-left: 15px;
+  color: white;
+  background-color: var(--dark-gray);
+  border-radius: 10px;
+  font-size: 18px;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+.sosmed h3 {
+  text-align: center;
+}
+
+.sosmed span {
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.facebook:hover {
+  color: #4867aa;
+  border: 2px solid #4867aa;
+}
+
+.twitter:hover {
+  color: #00aeef;
+  border: 2px solid #00aeef;
+}
+
+.instagram:hover {
+  color: #f47b0b;
+  border: 2px solid #f47b0b;
+}
+
+.youtube:hover {
+  color: #fc0404;
+  border: 2px solid #fc0404;
+}
+
+.variable {
+  margin-left: 20px;
+  float: left;
+}
+
+.footer-kanan {
+  color: white;
+}
+
+.fka {
+  list-style: none;
+  float:left; 
+}
+
+.logo-fka {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.fka li {
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-right: 30px;
+}
+
+.fka a {
+  text-decoration: none;
+  color: white
+}
+
+.footer-bawah {
+  position: relative
 }
