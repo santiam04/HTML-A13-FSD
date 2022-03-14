@@ -1,0 +1,35 @@
+/* A13 */
+
+/*
+
+Identitas Kelompok A13
+
+@usernamegithub - (nama lengkap)
+@usernamegithub - (nama lengkap)
+@santiam04 - (nama lengkap)
+@kakatuahitam - Yuda Kurnia Nurul Fikri
+@dudu756 - (nama lengkap)
+
+ */
+
+/* Animation: */
+/* Media Query: */
+
+:root {
+  /* Color Pallete */
+  --primary-color: #BFAF2E;
+  --light-acc-color: #8A819A;
+  --light-shd-color: #F4F7F6;
+  --dark-acc-color: #AF3E50;
+  --dark-shd-color: #292532;
+
+  /* Tambahan warna untuk teks, atau lainnya */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+}
