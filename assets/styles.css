@@ -4,11 +4,11 @@
 
 Identitas Kelompok A13
 
-@usernamegithub - (nama lengkap)
-@Noor-Adibi - (Noor Adibi Muhammad Thariq)
-@santiam04 - (nama lengkap)
+@ochaputri - Ocha Putri Nugroho
+@Noor-Adibi - Noor Adibi Muhammad Thariq
+@santiam04 - Santi Amalia Ar-Nur
 @kakatuahitam - Yuda Kurnia Nurul Fikri
-@dudu756 - (nama lengkap)
+@RenaldoFrz - Renaldo Fareza Tambunan
 
  */
 
@@ -32,6 +32,71 @@ Identitas Kelompok A13
 
 body {
   background-color: var(--light-gray);
+  font-family: Calibri;
+}
+a {
+  text-decoration: none;
+}
+
+/* Banner @santiam04 */
+.banner {
+  padding: 100px 0px;
+  background-image: url(Website-Banner.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.container-banner {
+  width: 700px;
+  padding: 0px 15px;
+  margin: 15px;
+  text-align: left;
+}
+
+.container-banner h1 {
+  font-family: Verdana;
+  font-size: 40px;
+  color: white;
+}
+
+.container-banner h4 {
+  font-family: Verdana;
+  font-size: 20px;
+  color: white;
+}
+
+.btn-banner{
+  margin: 40px 0px;
+}
+
+.btn {
+  padding: 12px 36px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.find {
+  background-color: var(--golden);
+  border: 3px solid var(--golden);
+  margin-right: 10px;
+}
+
+.offer {
+  border: 3px solid black;
+  margin-left: 10px;
+}
+
+.find:hover {
+  background-color: rgb(247, 190, 47);
+  border: 3px solid rgb(247, 190, 47);
+}
+
+.offer:hover {
+  background-color: rgb(61, 60, 60);
+  border: 3px solid rgb(61, 60, 60);
 }
 
 /* Footer @ Noor-Adibi */
